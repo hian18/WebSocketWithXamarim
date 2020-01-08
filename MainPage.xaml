@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TesteWebSocket.MainPage"
+             >
+
+    <StackLayout>
+        <!-- Place new controls here -->
+
+
+
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label Text="Evento" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+
+<StackLayout>
+    
+<Image Source="" />
+</StackLayout>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label Text="Seja Bem Vindo" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+        <StackLayout Margin="0,0,0,10">
+    
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <Button Text="Criar Conta" Grid.Row="0" Grid.Column="0"/>
+
+            <Button Text="Conectar" Grid.Row="0" Grid.Column="1" />
+        </Grid>
+</StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
+
